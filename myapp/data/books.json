@@ -1,0 +1,22 @@
+[{
+ "id": 1,
+ "name": "Toan Cao Cap 1",
+ "description": "Khoi nganh khong chuyen Toan",
+ "price": 75000,
+ "image": "images/p1.png",
+ "publisher_id": 1
+}, {
+ "id": 2,
+ "name": "Kinh te vi mo",
+ "description": "Khoi nganh kinh te",
+ "price": 70000,
+ "image": "images/p2.png",
+ "publisher_id": 1
+}, {
+ "id": 3,
+ "name": "Divergent",
+ "description": "Tieu thuyet",
+ "price": 280000,
+ "image": "images/p3.png",
+ "publisher_id": 2
+}]
