@@ -38,7 +38,8 @@ class LogoutView(BaseView):
         return current_user.is_authenticated
 
 
-admin.add_view(BookView(Book, db.session))
-admin.add_view(ModelView(Author, db.session))
-admin.add_view(ModelView(Publisher, db.session))
-admin.add_view(ModelView(Book_Category, db.session))
+admin.add_view(AuthenticatedModelView(Book, db.session))
+admin.add_view(AuthenticatedModelView(Author, db.session))
+admin.add_view(AuthenticatedModelView(Publisher, db.session))
+admin.add_view(AuthenticatedModelView(Book_Category, db.session))
+admin.add_view(LogoutView(name='Logout'))
